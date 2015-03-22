@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		80C1CBD51ABE82B500835E8E /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 80C1CBD21ABE82B500835E8E /* icon.png */; };
+		80C1CBD61ABE82B500835E8E /* icon-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 80C1CBD31ABE82B500835E8E /* icon-2.png */; };
+		80C1CBD71ABE82B500835E8E /* icon-3.png in Resources */ = {isa = PBXBuildFile; fileRef = 80C1CBD41ABE82B500835E8E /* icon-3.png */; };
 		80C489C91ABE124C00A2D581 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C489C81ABE124C00A2D581 /* AppDelegate.swift */; };
 		80C489CB1ABE124C00A2D581 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C489CA1ABE124C00A2D581 /* ViewController.swift */; };
 		80C489CE1ABE124C00A2D581 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80C489CC1ABE124C00A2D581 /* Main.storyboard */; };
@@ -26,6 +29,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		80C1CBD21ABE82B500835E8E /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = ../../icon.png; sourceTree = "<group>"; };
+		80C1CBD31ABE82B500835E8E /* icon-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-2.png"; path = "../../icon-2.png"; sourceTree = "<group>"; };
+		80C1CBD41ABE82B500835E8E /* icon-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-3.png"; path = "../../icon-3.png"; sourceTree = "<group>"; };
 		80C489C31ABE124C00A2D581 /* tips.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tips.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		80C489C71ABE124C00A2D581 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		80C489C81ABE124C00A2D581 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -91,6 +97,9 @@
 			isa = PBXGroup;
 			children = (
 				80C489C71ABE124C00A2D581 /* Info.plist */,
+				80C1CBD21ABE82B500835E8E /* icon.png */,
+				80C1CBD31ABE82B500835E8E /* icon-2.png */,
+				80C1CBD41ABE82B500835E8E /* icon-3.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -192,9 +201,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80C1CBD71ABE82B500835E8E /* icon-3.png in Resources */,
+				80C1CBD51ABE82B500835E8E /* icon.png in Resources */,
 				80C489CE1ABE124C00A2D581 /* Main.storyboard in Resources */,
 				80C489D31ABE124C00A2D581 /* LaunchScreen.xib in Resources */,
 				80C489D01ABE124C00A2D581 /* Images.xcassets in Resources */,
+				80C1CBD61ABE82B500835E8E /* icon-2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,6 +349,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = tips/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -347,6 +360,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = tips/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -405,6 +419,7 @@
 				80C489E41ABE124C00A2D581 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		80C489E51ABE124C00A2D581 /* Build configuration list for PBXNativeTarget "tipsTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +428,7 @@
 				80C489E71ABE124C00A2D581 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
