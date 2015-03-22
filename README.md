@@ -13,5 +13,7 @@ Note:
   Attempted to play with swipe to change the number of people splitting the bill, but could not get it working
   
 Walkthrough:
-![alt tag](http://url/to/TipCalculator.gif)
+
+![tipCalculator](https://github.com/Raridao/Tip-Calculator/blob/master/TipCalculatorDemo.gif?raw=true)
   
+Demo made with LICEcap
